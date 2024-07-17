@@ -23,9 +23,7 @@
                     <img src="img/Rojela-3-11-2023.png" class="logo" alt="Logo Rojela">
                     <p>Lencería - Ropa Íntima - Perfumería</p>
                 </div>
-            </header>
-
-<!-- Pregunta de confirmación -->        
+            </header>        
 
             <?php 
             
