@@ -26,12 +26,12 @@ if(isset($_GET['id'])){
 $query = "SELECT * FROM productos WHERE id = '$id'";
 $resultado = mysqli_query($conexionsql, $query);
 
-// if(!$resultado){
-//     die("query Failed");
-// }
-//     else{
-//         $unaFila = mysqli_fetch_assoc($resultado); 
-//     }
+if(!$resultado){
+    die("query Failed");
+}
+    else{
+        $unaFila = mysqli_fetch_assoc($resultado); 
+    }
 }
 
 if(isset($_POST['Editar_producto'])){
